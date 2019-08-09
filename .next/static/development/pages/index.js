@@ -22995,7 +22995,7 @@ var Index = function Index(props) {
     },
     __self: this
   }, react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("img", {
-    src: "/static/headshot.jpg",
+    src: "_next/static/headshot.jpg",
     height: "160",
     width: "120",
     __source: {

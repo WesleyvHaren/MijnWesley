@@ -1021,7 +1021,7 @@ const Index = props => {
     },
     __self: undefined
   }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("img", {
-    src: "/static/headshot.jpg",
+    src: "_next/static/headshot.jpg",
     height: "160",
     width: "120",
     __source: {

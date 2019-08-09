@@ -22,7 +22,7 @@ const PostLink = ({ post }) => (
 const Index = props => {
   return (
     <Layout>
-        <img src="/static/headshot.jpg" height="160" width="120"></img>
+        <img src="_next/static/headshot.jpg" height="160" width="120"></img>
       <h1>MijnWesley</h1>
       <Button variant="contained" color="primary">
       Hello World
