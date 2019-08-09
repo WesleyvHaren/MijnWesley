@@ -23017,7 +23017,13 @@ var Index = function Index(props) {
       lineNumber: 27
     },
     __self: this
-  }, "Hello World"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("ul", {
+  }, "Hello World"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("p", {
+    __source: {
+      fileName: _jsxFileName,
+      lineNumber: 30
+    },
+    __self: this
+  }, "Welkom op mijn site"), react__WEBPACK_IMPORTED_MODULE_2___default.a.createElement("ul", {
     __source: {
       fileName: _jsxFileName,
       lineNumber: 31

@@ -27,7 +27,7 @@ const Index = props => {
       <Button variant="contained" color="primary">
       Hello World
     </Button> 
-
+    <p>Welkom op mijn site</p>
       <ul>
         {getPosts().map(post => (
           <PostLink key={post.id} post={post} />
