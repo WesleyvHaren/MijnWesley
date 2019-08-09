@@ -1,7 +1,7 @@
 module.exports =
 /******/ (function(modules) { // webpackBootstrap
 /******/ 	// The module cache
-/******/ 	var installedModules = require('../../../../ssr-module-cache.js');
+/******/ 	var installedModules = require('../../../ssr-module-cache.js');
 /******/
 /******/ 	// The require function
 /******/ 	function __webpack_require__(moduleId) {
@@ -88,7 +88,7 @@ module.exports =
 /******/
 /******/
 /******/ 	// Load entry module and return exports
-/******/ 	return __webpack_require__(__webpack_require__.s = 3);
+/******/ 	return __webpack_require__(__webpack_require__.s = 6);
 /******/ })
 /************************************************************************/
 /******/ ({
@@ -106,7 +106,22 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_1__);
+/* harmony import */ var _material_ui_core_AppBar__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! @material-ui/core/AppBar */ "@material-ui/core/AppBar");
+/* harmony import */ var _material_ui_core_AppBar__WEBPACK_IMPORTED_MODULE_2___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_AppBar__WEBPACK_IMPORTED_MODULE_2__);
+/* harmony import */ var _material_ui_core_Toolbar__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! @material-ui/core/Toolbar */ "@material-ui/core/Toolbar");
+/* harmony import */ var _material_ui_core_Toolbar__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Toolbar__WEBPACK_IMPORTED_MODULE_3__);
+/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! @material-ui/core/Typography */ "@material-ui/core/Typography");
+/* harmony import */ var _material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_4__);
+/* harmony import */ var _material_ui_core_IconButton__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! @material-ui/core/IconButton */ "@material-ui/core/IconButton");
+/* harmony import */ var _material_ui_core_IconButton__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(_material_ui_core_IconButton__WEBPACK_IMPORTED_MODULE_5__);
+/* harmony import */ var _material_ui_icons_Menu__WEBPACK_IMPORTED_MODULE_6__ = __webpack_require__(/*! @material-ui/icons/Menu */ "@material-ui/icons/Menu");
+/* harmony import */ var _material_ui_icons_Menu__WEBPACK_IMPORTED_MODULE_6___default = /*#__PURE__*/__webpack_require__.n(_material_ui_icons_Menu__WEBPACK_IMPORTED_MODULE_6__);
 var _jsxFileName = "D:\\site\\components\\Header.js";
+
+
+
+
+
 
 
 const linkStyle = {
@@ -116,38 +131,101 @@ const linkStyle = {
 const Header = () => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 8
+    lineNumber: 13
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_AppBar__WEBPACK_IMPORTED_MODULE_2___default.a, {
+  position: "static",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Toolbar__WEBPACK_IMPORTED_MODULE_3___default.a, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 15
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_IconButton__WEBPACK_IMPORTED_MODULE_5___default.a, {
+  edge: "start",
+  color: "inherit",
+  "aria-label": "menu",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 16
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_icons_Menu__WEBPACK_IMPORTED_MODULE_6___default.a, {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 17
+  },
+  __self: undefined
+})), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_4___default.a, {
+  variant: "h6",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 19
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 9
+    lineNumber: 20
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
   style: linkStyle,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 10
+    lineNumber: 21
   },
   __self: undefined
-}, "Home")), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+}, "Home"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_4___default.a, {
+  variant: "h6",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 24
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
   href: "/about",
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 12
+    lineNumber: 25
   },
   __self: undefined
 }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
   style: linkStyle,
   __source: {
     fileName: _jsxFileName,
-    lineNumber: 13
+    lineNumber: 26
   },
   __self: undefined
-}, "About")));
+}, "About"))), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_material_ui_core_Typography__WEBPACK_IMPORTED_MODULE_4___default.a, {
+  variant: "h6",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 29
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(next_link__WEBPACK_IMPORTED_MODULE_1___default.a, {
+  href: "/games",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 30
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("a", {
+  style: linkStyle,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 31
+  },
+  __self: undefined
+}, "Games"))))));
 
 /* harmony default export */ __webpack_exports__["default"] = (Header);
 
@@ -174,20 +252,36 @@ const layoutStyle = {
   border: '1px solid #DDD'
 };
 
-const Layout = props => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
-  style: layoutStyle,
-  __source: {
-    fileName: _jsxFileName,
-    lineNumber: 10
-  },
-  __self: undefined
-}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
+const Layout = props => react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_0___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+  rel: "stylesheet",
+  href: "https://fonts.googleapis.com/icon?family=Material+Icons",
   __source: {
     fileName: _jsxFileName,
     lineNumber: 11
   },
   __self: undefined
-}), props.children);
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("link", {
+  rel: "stylesheet",
+  href: "https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap",
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 12
+  },
+  __self: undefined
+}), react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("div", {
+  style: layoutStyle,
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 13
+  },
+  __self: undefined
+}, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_Header__WEBPACK_IMPORTED_MODULE_1__["default"], {
+  __source: {
+    fileName: _jsxFileName,
+    lineNumber: 14
+  },
+  __self: undefined
+}), props.children));
 
 /* harmony default export */ __webpack_exports__["default"] = (Layout);
 
@@ -857,131 +951,104 @@ module.exports = __webpack_require__(/*! ./dist/client/link */ "./node_modules/n
 
 /***/ }),
 
-/***/ "./pages/p/[id].js":
-/*!*************************!*\
-  !*** ./pages/p/[id].js ***!
-  \*************************/
+/***/ "./pages/about.js":
+/*!************************!*\
+  !*** ./pages/about.js ***!
+  \************************/
 /*! exports provided: default */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! styled-jsx/style */ "styled-jsx/style");
-/* harmony import */ var styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0__);
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! react */ "react");
-/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_1___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_1__);
-/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_2__ = __webpack_require__(/*! ../../components/Layout */ "./components/Layout.js");
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3__ = __webpack_require__(/*! isomorphic-unfetch */ "isomorphic-unfetch");
-/* harmony import */ var isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3___default = /*#__PURE__*/__webpack_require__.n(isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3__);
-/* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_4__ = __webpack_require__(/*! react-markdown */ "react-markdown");
-/* harmony import */ var react_markdown__WEBPACK_IMPORTED_MODULE_4___default = /*#__PURE__*/__webpack_require__.n(react_markdown__WEBPACK_IMPORTED_MODULE_4__);
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_5__ = __webpack_require__(/*! next/router */ "next/router");
-/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_5___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_5__);
-var _jsxFileName = "D:\\site\\pages\\p\\[id].js";
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "default", function() { return About; });
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(/*! react */ "react");
+/* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
+/* harmony import */ var _components_Layout__WEBPACK_IMPORTED_MODULE_1__ = __webpack_require__(/*! ../components/Layout */ "./components/Layout.js");
+var _jsxFileName = "D:\\site\\pages\\about.js";
 
 
-
-
-
-
-
-const Post = props => {
-  const router = Object(next_router__WEBPACK_IMPORTED_MODULE_5__["useRouter"])();
-  return react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_2__["default"], {
+function About() {
+  return react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement(_components_Layout__WEBPACK_IMPORTED_MODULE_1__["default"], {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 10
+      lineNumber: 5
     },
-    __self: undefined
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-    className: "jsx-2647703310",
+    __self: this
+  }, react__WEBPACK_IMPORTED_MODULE_0___default.a.createElement("p", {
     __source: {
       fileName: _jsxFileName,
-      lineNumber: 11
+      lineNumber: 6
     },
-    __self: undefined
-  }, router.query.id), props.show.summary ? react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react__WEBPACK_IMPORTED_MODULE_1___default.a.Fragment, null, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("h1", {
-    className: "jsx-2647703310",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 14
-    },
-    __self: undefined
-  }, props.show.name), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("p", {
-    className: "jsx-2647703310",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 15
-    },
-    __self: undefined
-  }, props.show.summary.replace(/<[/]?p>/g, '')), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("img", {
-    src: props.show.image.medium,
-    className: "jsx-2647703310",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 16
-    },
-    __self: undefined
-  })) : react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("span", {
-    className: "jsx-2647703310",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 17
-    },
-    __self: undefined
-  }), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement("div", {
-    className: "jsx-2647703310" + " " + "markdown",
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 19
-    },
-    __self: undefined
-  }, react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(react_markdown__WEBPACK_IMPORTED_MODULE_4___default.a, {
-    source: `
-This is our blog post.
-Yes. We can have a [link](/link).
-And we can have a title as well.
-
-### This is a title
-
-And here's the content.
-      `,
-    __source: {
-      fileName: _jsxFileName,
-      lineNumber: 20
-    },
-    __self: undefined
-  })), react__WEBPACK_IMPORTED_MODULE_1___default.a.createElement(styled_jsx_style__WEBPACK_IMPORTED_MODULE_0___default.a, {
-    id: "2647703310",
-    __self: undefined
-  }, ".markdown{font-family:'Arial';}.markdown a{-webkit-text-decoration:none;text-decoration:none;color:blue;}.markdown a:hover{opacity:0.6;}.markdown h3{margin:0;padding:0;text-transform:uppercase;}\n/*# sourceMappingURL=data:application/json;charset=utf-8;base64,eyJ2ZXJzaW9uIjozLCJzb3VyY2VzIjpbIkQ6XFxzaXRlXFxwYWdlc1xccFxcW2lkXS5qcyJdLCJuYW1lcyI6W10sIm1hcHBpbmdzIjoiQUErQnlCLEFBRytCLEFBSUMsQUFLVCxBQUlILFNBQ0MsR0FKWixPQUsyQixDQWQzQix3QkFlQSxNQVhhLFdBQ2IiLCJmaWxlIjoiRDpcXHNpdGVcXHBhZ2VzXFxwXFxbaWRdLmpzIiwic291cmNlc0NvbnRlbnQiOlsiaW1wb3J0IExheW91dCBmcm9tICcuLi8uLi9jb21wb25lbnRzL0xheW91dCc7XHJcbmltcG9ydCBmZXRjaCBmcm9tICdpc29tb3JwaGljLXVuZmV0Y2gnO1xyXG5pbXBvcnQgTWFya2Rvd24gZnJvbSAncmVhY3QtbWFya2Rvd24nO1xyXG5pbXBvcnQgeyB1c2VSb3V0ZXIgfSBmcm9tICduZXh0L3JvdXRlcic7XHJcblxyXG5jb25zdCBQb3N0ID0gcHJvcHMgPT4ge1xyXG4gICAgY29uc3Qgcm91dGVyID0gdXNlUm91dGVyKCk7XHJcblxyXG4gICAgcmV0dXJuIChcclxuICAgIDxMYXlvdXQ+XHJcbiAgICAgICAgPGgxPntyb3V0ZXIucXVlcnkuaWR9PC9oMT5cclxuICAgICAgICB7IHByb3BzLnNob3cuc3VtbWFyeSA/XHJcbiAgICAgICAgPD5cclxuICAgICAgICA8aDE+e3Byb3BzLnNob3cubmFtZX08L2gxPlxyXG4gICAgICAgIDxwPntwcm9wcy5zaG93LnN1bW1hcnkucmVwbGFjZSgvPFsvXT9wPi9nLCAnJyl9PC9wPlxyXG4gICAgICAgIDxpbWcgc3JjPXtwcm9wcy5zaG93LmltYWdlLm1lZGl1bX0gLz5cclxuICAgICAgICA8Lz4gOiA8c3Bhbj48L3NwYW4+XHJcbiAgICAgICAgfVxyXG4gICAgICAgIDxkaXYgY2xhc3NOYW1lPVwibWFya2Rvd25cIj5cclxuICAgICAgICA8TWFya2Rvd25cclxuICAgICAgICAgIHNvdXJjZT17YFxyXG5UaGlzIGlzIG91ciBibG9nIHBvc3QuXHJcblllcy4gV2UgY2FuIGhhdmUgYSBbbGlua10oL2xpbmspLlxyXG5BbmQgd2UgY2FuIGhhdmUgYSB0aXRsZSBhcyB3ZWxsLlxyXG5cclxuIyMjIFRoaXMgaXMgYSB0aXRsZVxyXG5cclxuQW5kIGhlcmUncyB0aGUgY29udGVudC5cclxuICAgICAgYH1cclxuICAgICAgICAvPlxyXG4gICAgICA8L2Rpdj5cclxuICAgICAgPHN0eWxlIGpzeCBnbG9iYWw+e2BcclxuICAgICAgICAubWFya2Rvd24ge1xyXG4gICAgICAgICAgZm9udC1mYW1pbHk6ICdBcmlhbCc7XHJcbiAgICAgICAgfVxyXG5cclxuICAgICAgICAubWFya2Rvd24gYSB7XHJcbiAgICAgICAgICB0ZXh0LWRlY29yYXRpb246IG5vbmU7XHJcbiAgICAgICAgICBjb2xvcjogYmx1ZTtcclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIC5tYXJrZG93biBhOmhvdmVyIHtcclxuICAgICAgICAgIG9wYWNpdHk6IDAuNjtcclxuICAgICAgICB9XHJcblxyXG4gICAgICAgIC5tYXJrZG93biBoMyB7XHJcbiAgICAgICAgICBtYXJnaW46IDA7XHJcbiAgICAgICAgICBwYWRkaW5nOiAwO1xyXG4gICAgICAgICAgdGV4dC10cmFuc2Zvcm06IHVwcGVyY2FzZTtcclxuICAgICAgICB9XHJcbiAgICAgIGB9PC9zdHlsZT5cclxuICAgIDwvTGF5b3V0PlxyXG4gICAgKTtcclxufVxyXG5cclxuUG9zdC5nZXRJbml0aWFsUHJvcHMgPSBhc3luYyBmdW5jdGlvbihjb250ZXh0KSB7XHJcbiAgY29uc3QgeyBpZCB9ID0gY29udGV4dC5xdWVyeTtcclxuICBjb25zdCByZXMgPSBhd2FpdCBmZXRjaChgaHR0cHM6Ly9hcGkudHZtYXplLmNvbS9zaG93cy8ke2lkfWApO1xyXG4gIGNvbnN0IHNob3cgPSBhd2FpdCByZXMuanNvbigpO1xyXG5cclxuICBjb25zb2xlLmxvZyhgRmV0Y2hlZCBzaG93OiAke3Nob3cubmFtZX1gKTtcclxuXHJcbiAgcmV0dXJuIHsgc2hvdyB9O1xyXG59O1xyXG5cclxuZXhwb3J0IGRlZmF1bHQgUG9zdDsiXX0= */\n/*@ sourceURL=D:\\site\\pages\\p\\[id].js */"));
-};
-
-Post.getInitialProps = async function (context) {
-  const {
-    id
-  } = context.query;
-  const res = await isomorphic_unfetch__WEBPACK_IMPORTED_MODULE_3___default()(`https://api.tvmaze.com/shows/${id}`);
-  const show = await res.json();
-  console.log(`Fetched show: ${show.name}`);
-  return {
-    show
-  };
-};
-
-/* harmony default export */ __webpack_exports__["default"] = (Post);
+    __self: this
+  }, "This is the about page"));
+}
 
 /***/ }),
 
-/***/ 3:
-/*!*******************************!*\
-  !*** multi ./pages/p/[id].js ***!
-  \*******************************/
+/***/ 6:
+/*!******************************!*\
+  !*** multi ./pages/about.js ***!
+  \******************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! D:\site\pages\p\[id].js */"./pages/p/[id].js");
+module.exports = __webpack_require__(/*! D:\site\pages\about.js */"./pages/about.js");
 
+
+/***/ }),
+
+/***/ "@material-ui/core/AppBar":
+/*!*******************************************!*\
+  !*** external "@material-ui/core/AppBar" ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/AppBar");
+
+/***/ }),
+
+/***/ "@material-ui/core/IconButton":
+/*!***********************************************!*\
+  !*** external "@material-ui/core/IconButton" ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/IconButton");
+
+/***/ }),
+
+/***/ "@material-ui/core/Toolbar":
+/*!********************************************!*\
+  !*** external "@material-ui/core/Toolbar" ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/Toolbar");
+
+/***/ }),
+
+/***/ "@material-ui/core/Typography":
+/*!***********************************************!*\
+  !*** external "@material-ui/core/Typography" ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/core/Typography");
+
+/***/ }),
+
+/***/ "@material-ui/icons/Menu":
+/*!******************************************!*\
+  !*** external "@material-ui/icons/Menu" ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = require("@material-ui/icons/Menu");
 
 /***/ }),
 
@@ -1029,17 +1096,6 @@ module.exports = require("core-js/library/fn/object/get-own-property-descriptor"
 
 /***/ }),
 
-/***/ "isomorphic-unfetch":
-/*!*************************************!*\
-  !*** external "isomorphic-unfetch" ***!
-  \*************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("isomorphic-unfetch");
-
-/***/ }),
-
 /***/ "next-server/dist/lib/router-context":
 /*!******************************************************!*\
   !*** external "next-server/dist/lib/router-context" ***!
@@ -1084,17 +1140,6 @@ module.exports = require("next-server/dist/lib/utils");
 
 /***/ }),
 
-/***/ "next/router":
-/*!******************************!*\
-  !*** external "next/router" ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("next/router");
-
-/***/ }),
-
 /***/ "prop-types":
 /*!*****************************!*\
   !*** external "prop-types" ***!
@@ -1128,28 +1173,6 @@ module.exports = require("react");
 
 /***/ }),
 
-/***/ "react-markdown":
-/*!*********************************!*\
-  !*** external "react-markdown" ***!
-  \*********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("react-markdown");
-
-/***/ }),
-
-/***/ "styled-jsx/style":
-/*!***********************************!*\
-  !*** external "styled-jsx/style" ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = require("styled-jsx/style");
-
-/***/ }),
-
 /***/ "url":
 /*!**********************!*\
   !*** external "url" ***!
@@ -1162,4 +1185,4 @@ module.exports = require("url");
 /***/ })
 
 /******/ });
-//# sourceMappingURL=[id].js.map
+//# sourceMappingURL=about.js.map

@@ -1,6 +1,7 @@
 import Layout from '../components/Layout';
 import Link from 'next/link';
 import fetch from 'isomorphic-unfetch';
+import Button from '@material-ui/core/Button';
 
 function getPosts() {
   return [
@@ -21,37 +22,18 @@ const PostLink = ({ post }) => (
 const Index = props => {
   return (
     <Layout>
-      <h1>My Blog</h1>
+        <img src="/static/headshot.jpg" height="160" width="120"></img>
+      <h1>MijnWesley</h1>
+      <Button variant="contained" color="primary">
+      Hello World
+    </Button> 
+
       <ul>
         {getPosts().map(post => (
           <PostLink key={post.id} post={post} />
         ))}
       </ul>
-      <style jsx>{`
-        h1,
-        a {
-          font-family: 'Arial';
-        }
-
-        ul {
-          padding: 0;
-        }
-
-        li {
-          list-style: none;
-          margin: 5px 0;
-        }
-
-        a {
-          text-decoration: none;
-          color: blue;
-        }
-
-        a:hover {
-          opacity: 0.6;
-        }
-      `}</style>
-          <h1>Batman TV Shows</h1>
+    <h1>Batman TV Shows</h1>
     <ul>
       {props.shows.map(show => (
         <li key={show.id}>
