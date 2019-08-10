@@ -1,61 +1,36 @@
-import Layout from '../components/Layout';
-import Link from 'next/link';
-import fetch from 'isomorphic-unfetch';
-import Button from '@material-ui/core/Button';
+import Layout from "../components/Layout";
+import { makeStyles } from "@material-ui/core/styles";
+import Avatar from "@material-ui/core/Avatar";
+import Grid from "@material-ui/core/Grid";
 
-function getPosts() {
-  return [
-    { id: 'hello-nextjs', title: 'Hello Next.js' },
-    { id: 'learn-nextjs', title: 'Learn Next.js is awesome' },
-    { id: 'deploy-nextjs', title: 'Deploy apps with ZEIT' }
-  ];
-}
+const useStyles = makeStyles({
+  avatar: {
+    margin: 10
+  },
+  bigAvatar: {
+    margin: 10,
+    width: 160,
+    height: 160
+  }
+});
 
-const PostLink = ({ post }) => (
-  <li>
-    <Link href="/p/[id]" as={`/p/${post.id}`}>
-      <a>{post.title}</a>
-    </Link>
-  </li>
-);
-
-const Index = props => {
+export default function Index() {
+  const classes = useStyles();
   return (
     <Layout>
-        <img src="_next/static/headshot.jpg" height="160" width="120"></img>
-      <h1>MijnWesley</h1>
-      <Button variant="contained" color="primary">
-      Hello World
-    </Button> 
-    <p>Welkom op mijn site</p>
-      <ul>
-        {getPosts().map(post => (
-          <PostLink key={post.id} post={post} />
-        ))}
-      </ul>
-    <h1>Batman TV Shows</h1>
-    <ul>
-      {props.shows.map(show => (
-        <li key={show.id}>
-          <Link href="/p/[id]" as={`/p/${show.id}`}>
-            <a>{show.name}</a>
-          </Link>
-        </li>
-      ))}
-    </ul>
+      <Grid container justify="center" alignItems="center" spacing={3}>
+        <Grid item xs={3}>
+          <Avatar
+            alt="Wesley van Haren"
+            src="/static/headshot.jpg"
+            className={classes.bigAvatar}
+          />
+        </Grid>
+        <Grid item xs={9}>
+          <h2>Welkom</h2>
+          <p>Introtekst</p>
+        </Grid>
+      </Grid>
     </Layout>
   );
 }
-
-Index.getInitialProps = async function() {
-    const res = await fetch('https://api.tvmaze.com/search/shows?q=batman');
-    const data = await res.json();
-  
-    console.log(`Show data fetched. Count: ${data.length}`);
-  
-    return {
-      shows: data.map(entry => entry.show)
-    };
-  };
-  
-  export default Index;
