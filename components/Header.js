@@ -2,6 +2,7 @@ import Link from "next/link";
 import AppBar from "@material-ui/core/AppBar";
 import Toolbar from "@material-ui/core/Toolbar";
 import Typography from "@material-ui/core/Typography";
+import { bgColors } from "../data/css-in-js-helpers";
 /* import IconButton from "@material-ui/core/IconButton";
 import MenuIcon from "@material-ui/icons/Menu"; */
 
@@ -9,8 +10,13 @@ const linkStyle = {
   marginRight: 15
 };
 
+const headerStyle = {
+  marginBottom: 10,
+  backgroundColor: bgColors.White
+};
+
 const Header = () => (
-  <div>
+  <div style={headerStyle}>
     <AppBar position="static" color="default">
       <Toolbar>
         {/*         <IconButton edge="start" color="inherit" aria-label="menu">
